@@ -3,7 +3,7 @@ A LaTeX document class formatted according to the National Science Foundation (N
 
 In this document class, the section and bibliography environments have been modified for compactness.
 
-# Note:
+# Removing Section Numbering
 To remove numbering from sections, use the command with an asterisk like so:
 ```latex 
   \section*{Example Section Name}
