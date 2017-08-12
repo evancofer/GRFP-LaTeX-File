@@ -30,17 +30,27 @@
 \RequirePackage[letterpaper, left=1in, right=1in, top=1in, bottom=1in, total={6.5in, 9.5in}, footskip=0in, marginparwidth=0in, headheight=0in, bindingoffset=0in]{geometry}
 
 \RequirePackage{paralist}
-\RequirePackage{natbib}
 \RequirePackage{ulem}
-
+\RequirePackage{times}
+\RequirePackage{hyperref}
+\RequirePackage{xcolor}
+\RequirePackage{notoccite}
+\RequirePackage[superscript,biblabel,nomove]{cite}
 
 %% Document Settings and Other Commands:
+
+\hypersetup{
+    colorlinks,
+    linkcolor={red!50!black},
+    citecolor={blue!50!black},
+    urlcolor={blue!80!black}
+}
 
 \pagenumbering{}
 \linespread{1.0}
 % Section formatting
 \renewcommand{\section}{
-    \@startsection{section}{1}{\z@}{\z@}{-5pt}{\grfpheader} 
+    \@startsection{section}{1}{\z@}{\z@}{-5pt}{\grfpheader}
 }
 
 % References formatting
